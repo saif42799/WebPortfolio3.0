@@ -1,11 +1,13 @@
 
-function About(){
+function About() {
 
-    return(
-        <header>
+    return (
+        <div className="aboutContainer">
             <h1>My About</h1>
-        </header>
-    ); 
+        </div>
+
+
+    );
 }
 
 export default About

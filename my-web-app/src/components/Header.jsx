@@ -41,15 +41,15 @@ function Header() {
 
 
     return (
-        <div className="header">
-            <div className="banner" id="home">
+        <div className="header" id="home">
+            <div className="banner" >
                 <div className="content">
                     <h1 className="WELCOME">WELCOME</h1>
                     <div className="model">
                         <img src="./src/assets/images/1-transformed.png" ref={modelRef} alt="img" />
                     
                     <div className="author">
-                        <h2>SAIF</h2>
+                        <h2>SAIF SHAIKH</h2>
                         <p>WEB DEVELOPER</p>
                         <p>FRONT-END DEVELOPER</p>
                         <p>SOFTWARE DEVELOPER</p>

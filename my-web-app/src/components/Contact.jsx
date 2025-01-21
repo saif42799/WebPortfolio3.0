@@ -3,7 +3,10 @@ function Contact(){
 
     return(
         <header>
-            <h1>My Contact</h1>
+            <div className="contactConatiner" id="contact">
+                <h1 className="CONTACT">CONTACT</h1>
+            </div>
+            
         </header>
     ); 
 }

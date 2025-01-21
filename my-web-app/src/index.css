@@ -144,6 +144,9 @@ body{
 
 
 /* -----------------------------Header----------------------------- */
+.header {
+  height: 100vh;
+}
 
 .banner .content .model img{
   max-height: 50%;
@@ -156,7 +159,7 @@ body{
 
 } 
 .banner .content .model{
-  margin-bottom: 200px;
+  /* margin-bottom: 500px; */
 }
 
 .WELCOME{
@@ -164,7 +167,7 @@ body{
   font-weight: bolder;
   font-size: 8em;
   transform: rotate(-90deg);
-  margin-left: -200px;
+  margin-left: -250px;
   position: absolute;
   left: 0;
   bottom: 30%;
@@ -179,6 +182,7 @@ body{
   text-align: left;
   position: absolute;
   right: 0;
+  bottom: 50px;  
 }
 
 
@@ -186,8 +190,261 @@ body{
 /* -----------------------------about----------------------------- */
 
 .aboutContainer{
-  background-color: rgba(0, 0, 0, 0.274);
-  margin: 50px;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.274); */
   border-radius: 3px;
+  position: relative;
 
+}
+
+.ABOUT{
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 8vw;
+  align-self: center;
+  transform: rotate(270deg);
+  position: absolute;
+  left: 0;
+  bottom: 200px;
+  transform-origin: 0 0;
+  color: #25283B;
+  z-index: 1;
+}
+
+.summarySection {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  right: 300px;
+  margin-top: 100px;
+}
+
+.aboutMe{
+  font-family: consolas;
+  font-size: 20px;
+  
+}
+
+.myList {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 150px;
+  gap: 100px; 
+}
+
+.myList li{
+  margin-top: 150px;
+  position: relative;
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.myList li::before {
+  content: '';
+  position: absolute;
+  inset: 30px;
+  box-shadow: 0 0 0 10px rgb(0, 0, 0),
+  0 0 0 20px rgb(0, 0, 0),
+  0 0 0 22px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.myList li:hover::before {
+  inset: 15px;
+}
+
+.myList li::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+.myList li:hover::after {
+  inset: -10px;
+  transform: rotate(0deg);
+}
+
+.myList li a {
+  position: relative;
+  text-decoration: none;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myList li a i {
+  font-size: 2em;
+  transition: 0.5s;
+  color: #000000;
+
+}
+
+.myList li:hover a i {
+  color: #000000;
+  transform: translateY(-40%);
+
+}
+
+.myList li a span {
+  position: absolute;
+  font-family: consolas;
+  color: #000000;
+  opacity: 0;
+  transition: 0.5s;
+  transform: scale(0) translateY(200%);
+
+}
+
+.myList li:hover a span {
+  opacity: 1;
+  transform: scale(1) translateY(100%);
+}
+
+/* .myList li:hover a i, 
+.myList li:hover a span {
+  filter: drop-shadow(0 0 20px rgb(255, 255, 255)) 
+  drop-shadow(0 0 40px rgb(255, 255, 255)) 
+  drop-shadow(0 0 60px rgb(0, 0, 0)) ;
+  
+} */
+
+
+
+
+.textBoxConatiner{
+  position: absolute;
+  right: 100px;
+  margin-top: 750px;
+  width: 800px;
+  padding: 50px;
+  overflow: hidden;
+  /* mask-image: linear-gradient(90deg, transparent,
+  #fff, #fff , #fff,  transparent); */
+  
+}
+
+.textBox1, .textBox2, .textBox3{
+  display: flex;
+  align-items: stretch;
+}
+.textBox1 {
+  margin-left: -40px;
+}
+.textBox2 {
+  margin-left: 50px;
+}
+
+.innerBox {
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px; 
+  overflow: hidden;
+  transition: 0.5s;
+  height: 20px;
+}
+
+.textAni{
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+@keyframes animate {
+  100% {
+    transform: translateX(-105%);
+  }
+  0% {
+    transform: translateX(100%);
+  }
+}
+
+.innerBox:hover {
+  background-color: white;
+}
+
+.innerBox:hover > .textAni{
+  animation: animate 4s linear infinite;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectConatiner {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.274);
+  border-radius: 3px;
+  position: relative;
+}
+
+.PROJECTS {
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 8vw;
+  align-self: center;
+  transform: rotate(270deg);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: 0 0;
+  color: #25283B;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactConatiner {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.274);
+  border-radius: 3px;
+  position: relative;
+}
+
+.CONTACT { 
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 8vw;
+  align-self: center;
+  transform: rotate(270deg);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: 0 0;
+  color: #25283B;
+  z-index: 1;
 }

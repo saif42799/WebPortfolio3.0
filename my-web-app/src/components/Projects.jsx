@@ -11,7 +11,7 @@ function Projects() {
                 <h1 className="PROJECTS">PROJECTS</h1>
                 <div class="projectSectionGrid">
                     
-                <div class="project" id="gridBox0">
+                <div id="gridBox0">
                     <a href="https://drive.google.com/file/d/18yBe35NGoetcDh6veYGvHAuB2mmblX4F/view?usp=sharing" target="_blank">
                         <img className="gridCenterImg" src="/src/assets/images/Group46.png" alt=""></img>
                     </a>

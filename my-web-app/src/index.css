@@ -192,7 +192,6 @@ body{
 .aboutContainer{
   height: 100vh;
   /* background-color: rgba(0, 0, 0, 0.274); */
-  border-radius: 3px;
   position: relative;
 
 }
@@ -394,9 +393,11 @@ body{
 
 .projectConatiner {
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.274);
+  /* background-color: rgba(0, 0, 0, 0.274); */
   border-radius: 3px;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .PROJECTS {
@@ -413,24 +414,241 @@ body{
   z-index: 1;
 }
 
+.projectSectionGrid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  grid-template-rows: repeat(5, 200px);
+  grid-template-columns: repeat(5, minmax(100px, 250px));
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  max-width: 1700px;
+}
+
+#gridBox0{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+
+#gridBox1{
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+#gridBox2{
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+#gridBox3{
+  grid-column-start: 3;
+  grid-row-start: 5;
+}
+
+#gridBox4{
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+#gridBox5{
+  grid-column-start: 5;
+  grid-row-start: 3;
+}
 
 
 
 
+.projectSectionGrid > .project{
+  position: relative;
+  padding: 2em;
+  /* background: #ff0000; */
 
+}
 
+.projectSectionGrid > .githubLink{
+  position: relative;
+ 
 
+}
 
+/* .projectSectionGrid > .project::before,
+.projectSectionGrid > .project::after{
+  content: "";
+  background-color: #BD0927;
+  position: absolute;
 
+}
 
+.projectSectionGrid > .githubLink::before,
+.projectSectionGrid > .githubLink::after{
+  content: "";
+  background-color: #BD0927;
+  position: absolute;
 
+}
 
+.projectSectionGrid > .project::after{
+  width: 100vw;
+  height: 2px;
+  top: -1em;
+  left: 0;
 
+}
 
-
-.contactConatiner {
+.projectSectionGrid > .project::before{
+  width: 2px;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.274);
+  top: 0;
+  left: -1em;
+
+}
+
+.projectSectionGrid > .githubLink::after{
+  width: 100vw;
+  height: 2px;
+  top: -1em;
+  left: 0;
+
+}
+
+.projectSectionGrid > .githubLink::before{
+  width: 2px;
+  height: 100vh;
+  top: 0;
+  left: -1em;
+
+} */
+
+.project img {
+  height: 75%;
+  transition: 1s ease-in-out
+}
+
+.githubLink img {
+  height: 55%;
+  transition: all .2s;
+}
+
+.project img:hover{
+  transform: scale(1.3);
+}
+
+.githubLink img:hover{
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+.projectCardShell{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.projectCard{
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 200px;
+  position: relative;
+  transition: 0.8s;
+  margin: 10px;
+}
+
+.projectCard img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s ease-in-out;
+ 
+}
+
+.projectCard:hover img{
+  width: 200%;
+  transition: 10s;
+
+  rotate: 360deg;
+}
+
+.projectCard:hover{
+  transform: translateY(-30px);
+  box-shadow: 0 90px 63px -20px #000;
+
+}
+
+.projectContent{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  transition: 0.8s;
+  backdrop-filter: blur(0);
+  transform: translateY(50%);
+}
+
+.projectCard:hover .projectContent{
+  transform: translateY(0);
+  backdrop-filter: blur(10px);
+}
+
+.projectContent h2{
+  margin: 0;
+}
+
+.projectContent .item{
+  font-size: small;
+  font-weight: 100;
+  padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactContainer {
+  height: 100vh;
+  /* background-color: rgba(0, 9, 20, 0.952); */
   border-radius: 3px;
   position: relative;
 }
@@ -448,3 +666,179 @@ body{
   color: #25283B;
   z-index: 1;
 }
+
+
+
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.formContainer {
+ position: relative;
+ width: 100%;
+ max-width: 600px;
+ padding: 60px;
+ background: rgba(255, 255, 255, 0.1);
+ box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+ border-right: 1px solid rgba(255, 255, 255, 0.25);
+ border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+ border-radius: 300px;
+ overflow: hidden;
+ backdrop-filter: blur(25px);
+ animation: form_animate 8s ease-in-out infinite 1s;
+ background: #000000;
+
+ 
+}
+
+@keyframes form_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+/* .formContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  background: #000000;
+  pointer-events: none;
+  transform: skew(-15deg);
+  z-index: 0;
+  
+
+} */
+
+.letsConnect {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.formContainer .row100 {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.formContainer .row100 .col {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  margin: 30px 0 20px;
+}
+
+.formContainer .row100 .col .inputBox {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+}
+
+.formContainer .row100 .col .inputBox input,
+.formContainer .row100 .col .inputBox textarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 0 10px;
+  z-index: 1;
+  color: #ff0000;
+}
+
+.formContainer .row100 .col .inputBox .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.formContainer .row100 .col .inputBox input:focus + .text,
+.formContainer .row100 .col .inputBox input:valid + .text,
+.formContainer .row100 .col .inputBox textarea:focus + .text,
+.formContainer .row100 .col .inputBox textarea:valid + .text {
+  top: -35px;
+  left: -10px;
+}
+
+.formContainer .row100 .col .inputBox .line {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #efefef;
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+  border-radius: 50px;
+}
+
+.formContainer .row100 .col .inputBox input:focus ~ .line,
+.formContainer .row100 .col .inputBox input:valid ~ .line {
+  height: 100%;
+}
+
+.formContainer .row100 .col .inputBox.textarea {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 10px 0;
+}
+
+.formContainer .row100 .col .inputBox textarea:focus ~ .line,
+.formContainer .row100 .col .inputBox textarea:valid ~ .line {
+  height: 100%;
+}
+
+.formButton {
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  outline: none;
+  background: #ffffff57;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 50px;
+  color: #fff;
+  
+}
+
+
+
+
+
+
+body {
+  background-color: #0e13399c;
+}
+

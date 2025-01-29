@@ -46,7 +46,7 @@ function Header() {
                 <div className="content">
                     <div className='textChanger'>
                         <div className='diffLangContainer'>
-                            <span className='diffWelcome'>WELCOME</span>
+                            <span className='diffWelcome'>WELC<img src="./src/assets/images/homeLogo.png" className='welcomeSymbol'></img>ME</span>
                             <span className='diffWelcome'>Yōkoso</span>
                             <span className='diffWelcome'>Bienvenue</span>
                             <span className='diffWelcome'>Välkommen</span>
@@ -68,21 +68,24 @@ function Header() {
                         <li>
                             <a href="https://www.linkedin.com/in/-saif-shaikh/" target="_blank">
                             <i class="fa-brands fa-linkedin"></i>
-                                {/* <span>LINKEDIN</span> */}
                             </a>
                         </li>
 
                         <li>
                             <a href="https://github.com/saif42799" target="_blank">
                             <i class="fa-brands fa-github"></i>
-                                {/* <span>Github</span> */}
                             </a>
                         </li>
 
                         <li>
                             <a href="https://drive.google.com/file/d/18yBe35NGoetcDh6veYGvHAuB2mmblX4F/view?usp=sharing" target="_blank">
                                 <i class="fa-solid fa-file"></i>
-                                {/* <span>RESUME</span> */}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://truehero101.artstation.com/" target="_blank">
+                            <i class="fa-brands fa-artstation"></i>
                             </a>
                         </li>
                      

@@ -7,22 +7,15 @@ function About() {
             <div className="container">
                 <div className="summarySection">
                     <h1>HELLO</h1>
-                    <p className="aboutMe">Hello! Im Saif Shaikh, a Front-End Developer with a Bachelor's degree in 
-                        Software Engineering and a passion for crafting intuitive, high-performance 
-                        web applications. With expertise in HTML, CSS, JavaScript, and React, I 
-                        bring creative problem-solving and technical precision to every project. 
-                        My portfolio highlights work that demonstrates a focus on responsive design, 
-                        user experience, and performance optimization. I'm also experienced in 
-                        collaborating across teams to deliver polished solutions in fast-paced environments.
-                    In addition to my development skills, Im an AWS Certified Cloud Practitioner 
-                    and Microsoft Technology Associate, with hands-on experience in cloud platforms, 
-                    security, and process automation. Beyond coding, I stay inspired by pop culture, 
-                    anime, and video games, which influence my attention to detail and creative approach.
-                    I'm always eager to tackle new challenges, learn emerging technologies, and contribute 
-                    to innovative projects. If you're looking for a developer who combines technical skills 
-                    with a passion for creativity and growth, let's connect!
-                    Also, if interested above is link to the documentation of my web portfolio.
+                    <p className="aboutMe">Hello! Im a Front-End Developer, Software Engineer, 
+                    Artist when I want to be. I love to be creative and make cool shit. I love minimal, 
+                    bold designs. To bring them to life is amazing and rewarding in it own manner.   
+                    If you want to check out my resume, documentation to this site, or even my art. Links are 
+                    to the left.
                     </p>
+
+                    <p>"If you want to succed as bad as you want to breath then you'll be successful" - some 
+                        random guy on the internet </p>
                 </div>
 
                     <ul className="myList">

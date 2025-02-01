@@ -7,11 +7,6 @@ function Contact() {
                 <h1 className="CONTACT">CONTACT</h1>
 
                 <section>
-                 
-                   
-
-
-                   
                     <div className="formContainer">
 
                     <form action="https://api.web3forms.com/submit" method="POST" target="_blank">

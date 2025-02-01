@@ -3,7 +3,6 @@ function About() {
 
     return (
         <div className="aboutContainer" id="about">
-            <h1 className="ABOUT">ABOUT</h1>
             <div className="container">
                 <div className="summarySection">
                     <h1>HELLO</h1>
@@ -11,7 +10,7 @@ function About() {
                     Artist when I want to be. I love to be creative and make cool shit. I love minimal, 
                     bold designs. To bring them to life is amazing and rewarding in it own manner.   
                     If you want to check out my resume, documentation to this site, or even my art. Links are 
-                    to the left.
+                    somewhere on the page.
                     </p>
 
                     <p>"If you want to succed as bad as you want to breath then you'll be successful" - some 

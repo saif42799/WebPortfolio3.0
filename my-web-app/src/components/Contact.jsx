@@ -6,7 +6,7 @@ function Contact() {
             <div className="contactContainer" id="contact">
                 <h1 className="CONTACT">CONTACT</h1>
 
-                <section>
+                <section className="contactSection">
                     <div className="formContainer">
 
                     <form action="https://api.web3forms.com/submit" method="POST" target="_blank">

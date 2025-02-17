@@ -13,7 +13,7 @@ function Contact() {
                         <input type="hidden" name="access_key" value="7d657a0f-b2be-4590-bade-8cae8414fad6"></input>
 
 
-                        <h2 className="letsConnect">Let's Connect</h2>
+                        <h2 className="letsConnect">Get in touch</h2>
                         <div className="row100">
                             <div className="col">
                                 <div className="inputBox">

@@ -4,16 +4,14 @@ function Contact() {
     return (
         <header>
             <div className="contactContainer" id="contact">
-                <h1 className="CONTACT">CONTACT</h1>
 
                 <section className="contactSection">
+                <h2 className="letsConnect">Let's <br></br>Connect</h2>
+
                     <div className="formContainer">
 
                     <form action="https://api.web3forms.com/submit" method="POST" target="_blank">
                         <input type="hidden" name="access_key" value="7d657a0f-b2be-4590-bade-8cae8414fad6"></input>
-
-
-                        <h2 className="letsConnect">Get in touch</h2>
                         <div className="row100">
                             <div className="col">
                                 <div className="inputBox">

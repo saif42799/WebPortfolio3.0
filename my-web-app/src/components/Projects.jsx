@@ -9,7 +9,6 @@ function Projects() {
 
                     <div className="projectContentStuff">
 
-
                         <div className="pageCountDotList">
                             <ul>
                                 <li><div className="slideDotFill"></div></li>
@@ -20,18 +19,22 @@ function Projects() {
                             </ul>
                         </div>
 
-
                         <div className="descrptionContainer">
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/testImg.jpg" alt="img"></img>
+                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
-                                    <h2>Project Name</h2>
+                                    <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
+                                    <div className="linkContainer">
                                         <div className="projectDisplayLink">
-                                            <p>View Project</p>
+                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -39,24 +42,9 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Lofi Calculator</h1>
 
-                                    {/* <div className="picDisplayer">
-                                        <div className="displayer1">
-                                            <img src="/src/assets/images/testImg.jpg" alt="" id="revealImg1"/>
-                                        </div>
+                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
-                                        <div className="displayer2">
-                                            <img src="/src/assets/images/testImg.jpg" alt="" id="revealImg2"/>
-                                        </div>
-
-                                        <div className="displayer3">
-                                            <img src="/src/assets/images/testImg.jpg" alt="" id="revealImg3"/>
-                                        </div>
-
-                                        <div className="displayer4">
-                                            <img src="/src/assets/images/testImg.jpg" alt="" id="revealImg4"/>
-                                        </div>                                         
-                                    </div> */}
-                                    <p>
+                                    <p className="descrpText">
                                         This a quick little full-stack project
                                         using React and Node.js.
                                         I followed chatengine.io instructions
@@ -70,67 +58,14 @@ function Projects() {
                                 </div>
 
                                 <div className="projectTechUsed">
-                                    <img src="./src/assets/images/html.png"  className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
                                     <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/html.png"  className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
                                     <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>
                         </div>
-
-
-
-
-                    </div>
-
-                </section>
-
-                <section className="projectPageSlide" id="two">2
-                    <div className="pageCountDotList">
-                        <ul>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div ></div></li>
-                            <li><div></div></li>
-                            <li><div></div></li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section className="projectPageSlide" id="three">3
-                    <div className="pageCountDotList">
-                        <ul>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div></div></li>
-                            <li><div></div></li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section className="projectPageSlide" id="four">4
-                    <div className="pageCountDotList">
-                        <ul>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div></div></li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section className="projectPageSlide" id="five">5
-                    <div className="pageCountDotList">
-                        <ul>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                            <li><div className="slideDotFill"></div></li>
-                        </ul>
                     </div>
                 </section>
 
@@ -139,63 +74,268 @@ function Projects() {
 
 
 
-                {/* <section class="item-Project">
-                    <div class="projectsGrid"> 
 
 
+                <section className="projectPageSlide" id="two">
+                     <div className="projectContentStuff">
 
+                        <div className="pageCountDotList">
+                            <ul>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div></div></li>
+                                <li><div></div></li>
+                                <li><div></div></li>
+                            </ul>
+                        </div>
 
+                        <div className="descrptionContainer">
 
-                         <div class="projectCover">
-                            <div class="projectCardShell">
-                                <div class="projectCard" >
-                                    <a href="https://drive.google.com/file/d/18yBe35NGoetcDh6veYGvHAuB2mmblX4F/view?usp=sharing" target="_blank">
-                                        <img src="/src/assets/images/testImg.jpg" alt=""></img>
-                                    </a>
-                                    <div class="projectContent">
-                                        <h2>Project 1</h2>
-                                        <div class="title">HTML - CSS - React - Node.js</div>
-                                        <div class="count">🚀</div>
+                            <div className="projectDisplayPic">
+
+                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+
+                                <div className="projectDisplayContent">
+                                    <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
+                                    <div className="linkContainer">
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                        </div>
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="descriptionScroller" id="pulse">
-                            <div class="description-item">
-                                <p>Project 1 description: This a quick little full-stack project
-                                    using React and Node.js. I followed chatengine.io instructions
-                                    to develop a chat app where you can make a user and text other
-                                    users. The main takeaway from this project is to receive and
-                                    store users using chatengine.io. I am using a free trial so it
-                                    is limited. 🚀
-                                </p>
-                            </div>
+                            <div className="descriptionSubContainer">
+                                <div className="projectDesciptionSection">
+                                    <h1>Project Two</h1>
 
-                            <div class="description-item">
-                                <p>HTML, CSS, Other skills</p>
-                            </div>
+                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
-                            <div class="description-item">
-                                <a href=" " className="projectGitLink" target="_blank">
-                                    <a href=" " className="projectLink" target="_blank">
-                                        Check out the project <i class="fa-solid fa-square-arrow-up-right"></i>
-                                    </a>
-                                </a>
+                                    <p className="descrpText">
+                                        This a quick little full-stack project
+                                        using React and Node.js.
+                                        I followed chatengine.io instructions
+                                        to develop a chat app where you can make a user and text other
+                                        users.
+                                        The main takeaway from this project is to receive and
+                                        store users using chatengine.io.
+                                        I am using a free trial so it
+                                        is limited. 🚀
+                                    </p>
+                                </div>
+
+                                <div className="projectTechUsed">
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>  */}
+                </section>
 
 
 
 
+                <section className="projectPageSlide" id="three">
+                     <div className="projectContentStuff">
+
+                        <div className="pageCountDotList">
+                            <ul>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div></div></li>
+                                <li><div></div></li>
+                            </ul>
+                        </div>
+
+                        <div className="descrptionContainer">
+
+                            <div className="projectDisplayPic">
+
+                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+
+                                <div className="projectDisplayContent">
+                                    <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
+                                    <div className="linkContainer">
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                        </div>
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="descriptionSubContainer">
+                                <div className="projectDesciptionSection">
+                                    <h1>Project Three</h1>
+
+                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+
+                                    <p className="descrpText">
+                                        This a quick little full-stack project
+                                        using React and Node.js.
+                                        I followed chatengine.io instructions
+                                        to develop a chat app where you can make a user and text other
+                                        users.
+                                        The main takeaway from this project is to receive and
+                                        store users using chatengine.io.
+                                        I am using a free trial so it
+                                        is limited. 🚀
+                                    </p>
+                                </div>
+
+                                <div className="projectTechUsed">
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
 
 
+                <section className="projectPageSlide" id="four">
+                     <div className="projectContentStuff">
+
+                        <div className="pageCountDotList">
+                            <ul>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div></div></li>
+                            </ul>
+                        </div>
+
+                        <div className="descrptionContainer">
+
+                            <div className="projectDisplayPic">
+
+                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+
+                                <div className="projectDisplayContent">
+                                    <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
+                                    <div className="linkContainer">
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                        </div>
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="descriptionSubContainer">
+                                <div className="projectDesciptionSection">
+                                    <h1>Project Four</h1>
+
+                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+
+                                    <p className="descrpText">
+                                        This a quick little full-stack project
+                                        using React and Node.js.
+                                        I followed chatengine.io instructions
+                                        to develop a chat app where you can make a user and text other
+                                        users.
+                                        The main takeaway from this project is to receive and
+                                        store users using chatengine.io.
+                                        I am using a free trial so it
+                                        is limited. 🚀
+                                    </p>
+                                </div>
+
+                                <div className="projectTechUsed">
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
+
+
+                <section className="projectPageSlide" id="five">
+                     <div className="projectContentStuff">
+
+                        <div className="pageCountDotList">
+                            <ul>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                                <li><div className="slideDotFill"></div></li>
+                            </ul>
+                        </div>
+
+                        <div className="descrptionContainer">
+
+                            <div className="projectDisplayPic">
+
+                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+
+                                <div className="projectDisplayContent">
+                                    <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
+                                    <div className="linkContainer">
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                        </div>
+                                        <div className="projectDisplayLink">
+                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="descriptionSubContainer">
+                                <div className="projectDesciptionSection">
+                                    <h1>Project Five</h1>
+
+                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+
+                                    <p className="descrpText">
+                                        This a quick little full-stack project
+                                        using React and Node.js.
+                                        I followed chatengine.io instructions
+                                        to develop a chat app where you can make a user and text other
+                                        users.
+                                        The main takeaway from this project is to receive and
+                                        store users using chatengine.io.
+                                        I am using a free trial so it
+                                        is limited. 🚀
+                                    </p>
+                                </div>
+
+                                <div className="projectTechUsed">
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
             </div>
 

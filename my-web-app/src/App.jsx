@@ -3,6 +3,7 @@ import Lenis from "@studio-freight/lenis";
 
 import Header from "./components/Header.jsx";
 import About from "./components/About.jsx";
+import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
@@ -35,6 +36,7 @@ function App() {
     <>
       <Header />
       <About />
+      <Skills />
       <Projects />
       <Contact />
       <Navbar />

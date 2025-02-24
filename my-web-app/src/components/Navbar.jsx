@@ -17,6 +17,12 @@ function Navbar() {
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <img src="./src/assets/images/darkLogo.png" id="darkLightModeToggle" class="navImgTransition"></img>
+                        <span class="link-text" id="dlTextSwitch">Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="#projects" class="nav-link">
                         <img src="./src/assets/images/projectLogo.png" class="navImgTransition"></img>
                         <span class="link-text">Projects</span>
@@ -26,12 +32,6 @@ function Navbar() {
                     <a href="#contact" class="nav-link">
                         <img src="./src/assets/images/contactLogo.png" class="navImgTransition"></img>
                         <span class="link-text">Contact</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <img src="./src/assets/images/darkLogo.png" id="darkLightModeToggle" class="navImgTransition"></img>
-                        <span class="link-text" id="dlTextSwitch">Dark Mode</span>
                     </a>
                 </li>
             </ul>

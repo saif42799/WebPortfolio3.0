@@ -111,7 +111,7 @@ function Projects() {
                             <div className="descriptionSubContainer">
                                 <div className="projectDesciptionSection">
                                     <h1>Project Two</h1>
-
+                                
                                     <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">

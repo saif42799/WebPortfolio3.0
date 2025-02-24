@@ -14,7 +14,7 @@ function Header() {
     const modelRef = useRef(null);
 
     useEffect(() => {
-        const scrollChangeFactor = 0.02;
+        const scrollChangeFactor = 0.004;
 
         const handleScroll = () => {
             const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -46,7 +46,7 @@ function Header() {
                 <div className="content">
                     <div className='textChanger'>
                         <div className='diffLangContainer'>
-                            <span className='diffWelcome'>WELC<img src="./src/assets/images/homeLogo.png" className='welcomeSymbol'></img>ME</span>
+                            <span className='diffWelcome'>WELCOME</span>
                             <span className='diffWelcome'>Yōkoso</span>
                             <span className='diffWelcome'>Bienvenue</span>
                             <span className='diffWelcome'>Välkommen</span>

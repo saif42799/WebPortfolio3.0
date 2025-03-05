@@ -49,62 +49,15 @@ body{
   }
 }
 
-/* Adjusting screen depending on device*/         
-/* Small Screen */
-@media (max-width: 600px) {
-  .navbar{
-      width: 90vw;
-      bottom: 0;
-      margin: 25px;
-      margin-bottom: 5px;
-  }
 
-  .navbar-nav {
-      flex-direction: row;
-      justify-content: center;
-  }
 
-  .link-text {
-      display: none;  
-  }
 
-  .nav-link{
-      justify-content: center;
-  }
-  
 
-}
-/* Big Screen */
-@media (min-width: 600px) {
-  .navbar{
-      width: 3.5rem;
-      top: 30%; 
-      right: 0px;
-      margin-right: 25px;
-  }
-  .navbar-nav {
-      flex-direction: column;
-  }
-  .navbar:hover{
-      transform: scale(1.3);
-      background-color: rgba(93, 93, 93, 0.4);
-      backdrop-filter: blur(20px);
-  }
-  .navbar img:hover{
-      transform: rotate(360deg) translateZ(0) scale(1.5);
-  }
-  .nav-item:hover .link-text {
-      display: block;
-  }
-  .nav-link{
-      display: flex;
-   
-  }
-  .author{
-    margin-right: 150px;
-  }
-  
-}
+
+
+
+
+
 
 /* -----------------------------navbar----------------------------- */
 
@@ -278,27 +231,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------------------------about----------------------------- */
 
 
@@ -341,41 +273,9 @@ body{
   background-color: rgba(0, 0, 0, 0);
 }
 
-@media (max-width: 500px) {
-  .summarySection {
-    margin: 40px;
-    height: 500px;
-    width: 300px;
-  }
-}
-
-@media (max-width: 400px) {
-  .aboutContainer {
-    margin-bottom: 300px;
-  }
-}
-
-
 
 
 /* ---------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -518,117 +418,7 @@ body{
   margin-top: 25px;
 }
 
-/* @media (max-width: 60em) {
-  .firstSkillGrid {
-    height: 350px;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(4, 200px);
-    grid-template-areas: 
-      "box-1 box-2 box-3 box-3"
-      "box-6 box-7 box-3 box-3"
-      "box-8 box-9 box-4 box-5";
-  }
-
-  .secondSkillGrid {
-    display: grid; 
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(2, 200px);
-    grid-template-areas: 
-      "box-10 box-11 box-12"
-      "box-13 box-14 box-15";
-  }
-
-  .infiWordSlider {
-    display: none !important; 
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-  }
-
-  .infiWordSlider ul {
-    display: none !important; 
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-  }
-  
-  .box::before{
-    display: none;
-  }
-  
-  .box:hover:before{
-    display: none;
-  }
-  .box:hover {
-    transform: translateY(0px);
-  }
-} */
-
-@media (max-width: 500px) {
-  .firstSkillGrid {
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(6, 150px);
-    grid-template-areas: 
-      "box-1 box-2"
-      "box-6 box-7"
-      "box-3 box-3"
-      "box-3 box-3"
-      "box-4 box-5"
-      "box-8 box-9";
-  }
-
-  .secondSkillGrid {
-    margin-top: 670px;
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(3, 150px);
-    grid-template-areas: 
-      "box-10 box-11"
-      "box-12 box-13"
-      "box-14 box-15";
-  }
-
-  .infiWordSlider {
-    display: none !important; 
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-  }
-
-  .box:hover {
-    transform: translateY(0);
-  }
-}
-
-
 /* ---------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -933,7 +723,7 @@ body{
   align-items: center;
   animation: fade-in linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 5%;
+  animation-range: entry 0% cover 3%;
 }
 
 .projectTechUsed:hover { 
@@ -983,150 +773,7 @@ body{
 }
 
 
-
-
-/* @media (max-width: 60em) {
-  .projectDisplayPic {
-    height: 400px;
-    width: 300px;
-  }
-
-  .projectDesciptionSection {
-    height: 400px;
-    width: 300px;
-    margin-left: 40px;
-  }
-
-  .projectDesciptionSection h1 {
-    font-size: 2rem;
-  }
-
-  .descrpText{
-    padding: 20px;
-    font-size: 1rem;
-  }
-
-  .projectTechUsed {
-    height: 100px;
-    width: 300px;
-    margin-left: 40px;
-  }
-  .techIcon {
-    height: 30px;
-    padding: 0 10px 0 10px;
-  }
-} */
-
-@media (max-width: 500px) {
-
-
-  .projectDisplayPic {
-    height: 400px;
-    width: 300px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .projectDesciptionSection {
-    height: 300px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .projectDesciptionSection h1 {
-    font-size: 2rem;
-  }
-
-  .descrpText{
-    padding: 20px;
-    font-size: 0.8rem;
-  }
-
-  .projectTechUsed {
-    height: 60px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .techIcon {
-    height: 30px;
-    padding: 0 10px 0 10px;
-  }
-
-
-
-
-
-  .projectContentStuff {
-    display: flex;
-  }
-
-  .projectDisplayContent {
-    backdrop-filter: blur(0px);
-    transform: translateY(0%);
-  }
-
-  .projectDisplayPic:hover { 
-    transform: translateY(0);
-  }
-
-  .customImg {
-    filter: grayscale(0);
-  }
-
-  .customImg:hover {
-    width: 100%;
-    filter: grayscale(0);
-  }
-  
-  .projectPageSlide {
-    /* height: 100vh;
-    width: 100vw;
-    position: sticky;
-    top: 0;
-    border-radius: 30px 30px 0px 0px; 
-    justify-content: center;
-    align-items: center; */
-  }
-
-  .descrptionContainer{
-    grid-template-columns: 1fr;
-  }
-
-  .projectDisplayPic {
-    height: 100px;
-    width: 300px;
-   
-  }
-
-  .projectDesciptionSection {
-    border-radius: 30px;
-    margin-bottom: 10px;
-  }
-}
-
 /* ---------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1146,23 +793,6 @@ body{
   border-radius: 3px;
   /* position: relative; */
 }
-
-/* .CONTACT { 
-  font-family: 'Inter';
-  font-weight: bolder;
-  font-size: 8vw;
-  align-self: center;
-  transform: rotate(270deg);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform-origin: 0 0;
-  color: #25283B;
-  z-index: 1;
-} */
-
-
-
 
 .contactSection {
   display: flex;
@@ -1193,7 +823,6 @@ body{
  animation: fade-in linear;
  animation-timeline: view();
  animation-range: entry 0% cover 50%;
- 
 }
 
 .letsConnect {
@@ -1330,22 +959,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------------------------footer----------------------------- */
 
 .footerContainer {
@@ -1446,5 +1059,366 @@ body {
   /* -----------------------------Header End----------------------------- */
 
 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adjusting screen depending on device*/         
+/* Small Screen */
+@media (max-width: 600px) {
+  .navbar{
+      width: 90vw;
+      bottom: 0;
+      margin: 25px;
+      margin-bottom: 5px;
+  }
+
+  .navbar-nav {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .link-text {
+      display: none;  
+  }
+
+  .nav-link{
+      justify-content: center;
+  }
+  
+
+}
+/* Big Screen */
+@media (min-width: 600px) {
+  .navbar{
+      width: 3.5rem;
+      top: 30%; 
+      right: 0px;
+      margin-right: 25px;
+  }
+  .navbar-nav {
+      flex-direction: column;
+  }
+  .navbar:hover{
+      transform: scale(1.3);
+      background-color: rgba(93, 93, 93, 0.4);
+      backdrop-filter: blur(20px);
+  }
+  .navbar img:hover{
+      transform: rotate(360deg) translateZ(0) scale(1.5);
+  }
+  .nav-item:hover .link-text {
+      display: block;
+  }
+  .nav-link{
+      display: flex;
+   
+  }
+  .author{
+    margin-right: 150px;
+  }
+  
+}
+
+
+
+
+@media (max-width: 500px) {
+  .summarySection {
+    margin: 40px;
+    height: 500px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutContainer {
+    margin-bottom: 300px;
+  }
+}
+
+
+
+/* @media (max-width: 60em) {
+  .firstSkillGrid {
+    height: 350px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: 
+      "box-1 box-2 box-3 box-3"
+      "box-6 box-7 box-3 box-3"
+      "box-8 box-9 box-4 box-5";
+  }
+
+  .secondSkillGrid {
+    display: grid; 
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-template-areas: 
+      "box-10 box-11 box-12"
+      "box-13 box-14 box-15";
+  }
+
+  .infiWordSlider {
+    display: none !important; 
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+
+  .infiWordSlider ul {
+    display: none !important; 
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  
+  .box::before{
+    display: none;
+  }
+  
+  .box:hover:before{
+    display: none;
+  }
+  .box:hover {
+    transform: translateY(0px);
+  }
+} */
+
+@media (max-width: 500px) {
+  .firstSkillGrid {
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(6, 150px);
+    grid-template-areas: 
+      "box-1 box-2"
+      "box-6 box-7"
+      "box-3 box-3"
+      "box-3 box-3"
+      "box-4 box-5"
+      "box-8 box-9";
+  }
+
+  .secondSkillGrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas: 
+      "box-10 box-11"
+      "box-12 box-13"
+      "box-14 box-15";
+  }
+
+  .infiWordSlider {
+    display: none !important; 
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .box:hover {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+/* @media (max-width: 60em) {
+  .projectDisplayPic {
+    height: 400px;
+    width: 300px;
+  }
+
+  .projectDesciptionSection {
+    height: 400px;
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .projectDesciptionSection h1 {
+    font-size: 2rem;
+  }
+
+  .descrpText{
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .projectTechUsed {
+    height: 100px;
+    width: 300px;
+    margin-left: 40px;
+  }
+  .techIcon {
+    height: 30px;
+    padding: 0 10px 0 10px;
+  }
+} */
+
+@media (max-width: 500px) {
+  .projectDisplayPic {
+    height: 400px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .projectDesciptionSection {
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .projectDesciptionSection h1 {
+    font-size: 2rem;
+  }
+
+  .descrpText{
+    padding: 20px;
+    font-size: 0.8rem;
+  }
+
+  .projectTechUsed {
+    height: 60px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .techIcon {
+    height: 30px;
+    padding: 0 10px 0 10px;
+  }
+
+  .projectDisplayContent {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    backdrop-filter: blur(4px);
+    transform: translateY(0%);
+  }
+
+  .projectDisplayPic:hover { 
+    transform: translateY(0);
+  }
+
+  .customImg {
+    filter: grayscale(0);
+  }
+
+  .customImg:hover {
+    width: 100%;
+    filter: grayscale(0);
+  }
+
+  .descrptionContainer{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    left: 15%;
+    
+  }
+
+  .projectDisplayPic {
+    height: 100px;
+    width: 300px;
+  }
+
+  #swingArrow{
+    display: none;
+  }
+
+  .projectTechUsed:hover { 
+    transform: translateX(0);
+  }
+  .projectDesciptionSection:hover { 
+    transform: translateY(0px);
+  }
+  
+  .projectDisplayLink:hover {
+    transform: scale(1);
+  }
+  
+  .projectDisplayPic:hover .projectDisplayContent{
+    transform: translateY(0);
+  }
+  
+  .customImg:hover {
+    filter: grayscale(0);
+  }
+  
+  .projectDisplayPic:hover img {
+    filter: grayscale(0);
+  }
+  
+  .projectDisplayPic:hover { 
+    transform: translateY(0);
+  }
+
+  .funImg {
+    height: 70px;
+  }
+}
+
+
+
+
+
+@media (max-width: 500px) {
+  .contactSection {
+    padding: 0;
+  }
+
+  .formContainer {
+   
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    padding: 30px;
+    padding-top: 30px;
+  
+    transition: 0.8s;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+    
+   }
+
+  .letsConnect {
+    position: absolute;
+    margin-top: -600px;
+    font-size: 4rem;
+    animation-range: entry 0% cover 20%;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .letsConnect {
+    margin-top: -550px;
+    font-size: 2rem;
+  }
 
 }

@@ -18,8 +18,8 @@ function Navbar() {
                 </li>
                 <li class="nav-item">
                     <a href="#skills" class="nav-link">
-                        <img src="./src/assets/images/darkLogo.png" id="darkLightModeToggle" class="navImgTransition"></img>
-                        <span class="link-text" id="dlTextSwitch">Skills</span>
+                        <img src="./src/assets/images/Group46.png" class="navImgTransition"></img>
+                        <span class="link-text">Skills</span>
                     </a>
                 </li>
                 <li class="nav-item">

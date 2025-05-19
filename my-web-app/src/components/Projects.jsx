@@ -4,7 +4,7 @@ function Projects() {
     return (
         <header>
             <div className="projectConatiner" id="projects">
-
+                <div className="e5q"></div>
                 <section className="projectPageSlide" id="one">
 
                     <div className="projectContentStuff">
@@ -29,10 +29,10 @@ function Projects() {
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
                                     <div className="linkContainer">
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                            <a href="https://github.com/saif42799/LofiCalculator" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -60,8 +60,8 @@ function Projects() {
                                 <div className="projectTechUsed">
                                     <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
                                     <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./src/assets/images/js.png" className="techIcon" id="oneSetFloat" alt="JavaScript" />
+                                    <img src="./src/assets/images/React.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>
@@ -70,14 +70,9 @@ function Projects() {
                 </section>
 
 
-
-
-
-
-
-
+                <div className="e2q"></div>
                 <section className="projectPageSlide" id="two">
-                     <div className="projectContentStuff">
+                    <div className="projectContentStuff">
 
                         <div className="pageCountDotList">
                             <ul>
@@ -99,10 +94,10 @@ function Projects() {
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
                                     <div className="linkContainer">
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -111,19 +106,11 @@ function Projects() {
                             <div className="descriptionSubContainer">
                                 <div className="projectDesciptionSection">
                                     <h1>Project Two</h1>
-                                
+
                                     <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
-                                        This a quick little full-stack project
-                                        using React and Node.js.
-                                        I followed chatengine.io instructions
-                                        to develop a chat app where you can make a user and text other
-                                        users.
-                                        The main takeaway from this project is to receive and
-                                        store users using chatengine.io.
-                                        I am using a free trial so it
-                                        is limited. 🚀
+                                        🚧 In progress!!! 🚧
                                     </p>
                                 </div>
 
@@ -141,9 +128,9 @@ function Projects() {
 
 
 
-
+                <div className="e3q"></div>
                 <section className="projectPageSlide" id="three">
-                     <div className="projectContentStuff">
+                    <div className="projectContentStuff">
 
                         <div className="pageCountDotList">
                             <ul>
@@ -165,10 +152,10 @@ function Projects() {
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
                                     <div className="linkContainer">
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -181,15 +168,7 @@ function Projects() {
                                     <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
-                                        This a quick little full-stack project
-                                        using React and Node.js.
-                                        I followed chatengine.io instructions
-                                        to develop a chat app where you can make a user and text other
-                                        users.
-                                        The main takeaway from this project is to receive and
-                                        store users using chatengine.io.
-                                        I am using a free trial so it
-                                        is limited. 🚀
+                                        🚧 In progress!!! 🚧
                                     </p>
                                 </div>
 
@@ -207,9 +186,9 @@ function Projects() {
 
 
 
-
+                <div className="e4q"></div>
                 <section className="projectPageSlide" id="four">
-                     <div className="projectContentStuff">
+                    <div className="projectContentStuff">
 
                         <div className="pageCountDotList">
                             <ul>
@@ -231,10 +210,10 @@ function Projects() {
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
                                     <div className="linkContainer">
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -247,15 +226,7 @@ function Projects() {
                                     <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
-                                        This a quick little full-stack project
-                                        using React and Node.js.
-                                        I followed chatengine.io instructions
-                                        to develop a chat app where you can make a user and text other
-                                        users.
-                                        The main takeaway from this project is to receive and
-                                        store users using chatengine.io.
-                                        I am using a free trial so it
-                                        is limited. 🚀
+                                        🚧 In progress!!! 🚧
                                     </p>
                                 </div>
 
@@ -273,9 +244,9 @@ function Projects() {
 
 
 
-
+                <div className="e5q"></div>
                 <section className="projectPageSlide" id="five">
-                     <div className="projectContentStuff">
+                    <div className="projectContentStuff">
 
                         <div className="pageCountDotList">
                             <ul>
@@ -297,10 +268,10 @@ function Projects() {
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
                                     <div className="linkContainer">
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
                                         <div className="projectDisplayLink">
-                                            <a href="" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -313,15 +284,7 @@ function Projects() {
                                     <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
-                                        This a quick little full-stack project
-                                        using React and Node.js.
-                                        I followed chatengine.io instructions
-                                        to develop a chat app where you can make a user and text other
-                                        users.
-                                        The main takeaway from this project is to receive and
-                                        store users using chatengine.io.
-                                        I am using a free trial so it
-                                        is limited. 🚀
+                                        🚧 In progress!!! 🚧
                                     </p>
                                 </div>
 

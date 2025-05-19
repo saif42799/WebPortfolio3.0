@@ -17,7 +17,7 @@ function Skills() {
                 </div>
 
                 <div className='box' style={{ gridArea: "box-3" }}>
-                   
+
                 </div>
 
                 <div className='box' style={{ gridArea: "box-4" }}>
@@ -28,7 +28,7 @@ function Skills() {
 
                 <div className='box' style={{ gridArea: "box-5" }}>
                     <div className='iconHolder'>
-                        <img src="/src/assets/images/atom.png" className='imgSkill' alt="" />
+                        <img src="/src/assets/images/React.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@ function Skills() {
                         <span className='word'>JAVA</span>
                         <span className='word'></span>
                     </li>
-                    
+
                     <li>
                         <span className='word'></span>
                         <span className='word'>REACT</span>
@@ -129,7 +129,7 @@ function Skills() {
                 </ul>
 
                 <ul aria-hidden="true">
-                <li>
+                    <li>
                         <span className='word'></span>
                         <span className='word'>HTML</span>
                         <span className='word'></span>
@@ -152,7 +152,7 @@ function Skills() {
                         <span className='word'>JAVA</span>
                         <span className='word'></span>
                     </li>
-                    
+
                     <li>
                         <span className='word'></span>
                         <span className='word'>REACT</span>

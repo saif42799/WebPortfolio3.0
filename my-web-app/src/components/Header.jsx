@@ -35,11 +35,6 @@ function Header() {
     }, [imageArray]);
 
 
-    
-
-
-
-
     return (
         <div className="header" id="home">
             <div className="banner" >
@@ -55,41 +50,41 @@ function Header() {
                     </div>
                     <div className="model">
                         <img src="./src/assets/images/1-transformed.png" ref={modelRef} alt="img" />
-                    
-                    <div className="author">
-                        <h2>SAIF SHAIKH</h2>
-                        <p>WEB DEVELOPER</p>
-                        <p>FRONT-END DEVELOPER</p>
-                        <p>SOFTWARE DEVELOPER</p>
-                        <p>DESIGNER / ARTIST</p>
-                    </div>
 
-                    <ul className='socialLinks'>
-                        <li>
-                            <a href="https://www.linkedin.com/in/-saif-shaikh/" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </li>
+                        <div className="author">
+                            <h2>SAIF SHAIKH</h2>
+                            <p>WEB DEVELOPER</p>
+                            <p>FRONT-END DEVELOPER</p>
+                            <p>SOFTWARE DEVELOPER</p>
+                            <p>DESIGNER / ARTIST</p>
+                        </div>
 
-                        <li>
-                            <a href="https://github.com/saif42799" target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            </a>
-                        </li>
+                        <ul className='socialLinks'>
+                            <li>
+                                <a href="https://www.linkedin.com/in/-saif-shaikh/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href="https://drive.google.com/file/d/18yBe35NGoetcDh6veYGvHAuB2mmblX4F/view?usp=sharing" target="_blank">
-                                <i class="fa-solid fa-file"></i>
-                            </a>
-                        </li>
+                            <li>
+                                <a href="https://github.com/saif42799" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href="https://truehero101.artstation.com/" target="_blank">
-                            <i class="fa-brands fa-artstation"></i>
-                            </a>
-                        </li>
-                     
-                    </ul>
+                            <li>
+                                <a href="https://drive.google.com/file/d/18yBe35NGoetcDh6veYGvHAuB2mmblX4F/view?usp=sharing" target="_blank">
+                                    <i class="fa-solid fa-file"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://truehero101.artstation.com/" target="_blank">
+                                    <i class="fa-brands fa-artstation"></i>
+                                </a>
+                            </li>
+
+                        </ul>
 
                     </div>
                 </div>

@@ -2,13 +2,13 @@ import React, { useEffect, useRef } from 'react';
 
 function Header() {
     const imageArray = [
-        './src/assets/images/1-transformed.png',
-        './src/assets/images/2-transformed.png',
-        './src/assets/images/3-transformed.png',
-        './src/assets/images/4-transformed.png',
-        './src/assets/images/5-transformed.png',
-        './src/assets/images/6-transformed.png',
-        './src/assets/images/7-transformed.png'
+        './public/images/1-transformed.png',
+        './public/images/2-transformed.png',
+        './public/images/3-transformed.png',
+        './public/images/4-transformed.png',
+        './public/images/5-transformed.png',
+        './public/images/6-transformed.png',
+        './public/images/7-transformed.png'
     ];
 
     const modelRef = useRef(null);
@@ -49,7 +49,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="model">
-                        <img src="./src/assets/images/1-transformed.png" ref={modelRef} alt="img" />
+                        <img src="./public/images/1-transformed.png" ref={modelRef} alt="img" />
 
                         <div className="author">
                             <h2>SAIF SHAIKH</h2>

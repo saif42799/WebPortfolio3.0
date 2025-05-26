@@ -41,34 +41,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-image: url("/src/assets/images/iso.jpg");
+  background-image: url("/public/images/iso.jpg");
   background-color: black;
   background-size: cover;
   background-attachment: fixed;
   overflow-y: scroll;
-}
-
-.cursor-dot {
-  width: 5px;
-  height: 5px;
-  background-color: hsl(0, 88%, 35%);
-}
-
-.cursor-outline {
-  width: 30px;
-  height: 30px;
-  border: 2px solid hsla(0, 0%, 0%, 0.5);
-}
-
-.cursor-dot,
-.cursor-outline {
-  position: fixed;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  z-index: 1;
-  pointer-events: none;
 }
 
 /* -----------------------------navbar----------------------------- */
@@ -638,7 +615,7 @@ body {
 
 @font-face {
   font-family: MajorMonoDisplay-Regular;
-  src: url("my-web-app/src/assets/fonts/MajorMonoDisplay-Regular.ttf");
+  src: url("my-web-app/public/images/fonts/MajorMonoDisplay-Regular.ttf");
 }
 
 .projectDesciptionSection h1 {
@@ -977,6 +954,29 @@ body {
     scroll-behavior: smooth;
     height:
       100%;
+  }
+
+  .cursor-dot {
+    width: 5px;
+    height: 5px;
+    background-color: hsl(0, 88%, 35%);
+  }
+  
+  .cursor-outline {
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+  }
+  
+  .cursor-dot,
+  .cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
   }
 
   .header,

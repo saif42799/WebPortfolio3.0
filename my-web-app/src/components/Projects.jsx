@@ -23,7 +23,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/project1Screenshot.png" className="customImg" alt="img"></img>
+                                <img src="/public/images/project1Screenshot.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -42,7 +42,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Lofi Calculator</h1>
 
-                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+                                    <img src="/public/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                     Lofi Calculator 🎧🧮. A cozy little web app where you can crunch numbers, 
@@ -53,10 +53,10 @@ function Projects() {
                                 </div>
 
                                 <div className="projectTechUsed">
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/js.png" className="techIcon" id="oneSetFloat" alt="JavaScript" />
-                                    <img src="./src/assets/images/React.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/js.png" className="techIcon" id="oneSetFloat" alt="JavaScript" />
+                                    <img src="./public/images/React.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
+                                <img src="/public/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -102,7 +102,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Two</h1>
 
-                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
+                                    <img src="/public/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧<br></br>
@@ -119,10 +119,10 @@ function Projects() {
                                 </div>
 
                                 <div className="projectTechUsed">
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
+                                <img src="/public/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -169,7 +169,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Three</h1>
 
-                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
+                                    <img src="/public/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧
@@ -177,10 +177,10 @@ function Projects() {
                                 </div>
 
                                 <div className="projectTechUsed">
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
+                                <img src="/public/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -227,7 +227,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Four</h1>
 
-                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
+                                    <img src="/public/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧
@@ -235,10 +235,10 @@ function Projects() {
                                 </div>
 
                                 <div className="projectTechUsed">
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>
@@ -266,7 +266,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
+                                <img src="/public/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -285,7 +285,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Five</h1>
 
-                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
+                                    <img src="/public/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧
@@ -293,10 +293,10 @@ function Projects() {
                                 </div>
 
                                 <div className="projectTechUsed">
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
-                                    <img src="./src/assets/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
-                                    <img src="./src/assets/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
+                                    <img src="./public/images/html.png" className="techIcon" id="oneSetFloat" alt="HTML" />
+                                    <img src="./public/images/css.png" className="techIcon" id="twoSetFloat" alt="CSS" />
 
                                 </div>
                             </div>

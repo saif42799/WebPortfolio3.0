@@ -1,2 +1,0 @@
-Contain public assests 
-can have images using urls 

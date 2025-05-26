@@ -16,8 +16,8 @@ function Skills() {
                     </div>
                 </div>
 
-                <div className='box' style={{ gridArea: "box-3" }}>
-
+                <div className='box0' id='box-3' style={{ gridArea: "box-3" }}>
+                   
                 </div>
 
                 <div className='box' style={{ gridArea: "box-4" }}>

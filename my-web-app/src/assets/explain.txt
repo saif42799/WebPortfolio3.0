@@ -1,2 +1,0 @@
-contain img, vids
-very similiar to public folder but this is bundles during final output

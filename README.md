@@ -5,7 +5,10 @@ Software Engineer
 -----------------
 
 Web Portfolio 3.0 <br>
-🚧 In progress!!! 🚧
+Welcome to my web portfolio! Learn more about me and feel free to reach out with any inquiries
+
+Webserver <br>
+- I am using Cloudflare for the web server
 
 *   ✉️  You can contact me at [saif42799@outlook.com](mailto:saif42799@outlook.com)
 *   🧠  I'm learning Whatever I can get my hands on! And mainly JavaScript

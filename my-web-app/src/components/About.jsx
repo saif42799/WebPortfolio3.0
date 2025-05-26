@@ -8,7 +8,7 @@ function About() {
                     <br></br>
                     <h1>HELLO</h1>
                     <p className="aboutMe">Hello! Im a Front-End Developer, Software Engineer,
-                        Artist when I want to be. I love to be creative and make cool shit. I love minimal,
+                        Artist when I want to be. I love to be creative and make cool stuff. I love minimal,
                         bold designs. To bring them to life is amazing and rewarding in it own manner.
                         If you want to check out my resume, other social media sites, or even my art. Links are
                         somewhere on the page.

@@ -30,7 +30,7 @@ function Header() {
         window.addEventListener('scroll', handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', handleScroll); // Cleanup the event listener
+            window.removeEventListener('scroll', handleScroll); 
         };
     }, [imageArray]);
 

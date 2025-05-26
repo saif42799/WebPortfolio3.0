@@ -23,7 +23,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+                                <img src="/src/assets/images/project1Screenshot.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -45,15 +45,10 @@ function Projects() {
                                     <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
-                                        This a quick little full-stack project
-                                        using React and Node.js.
-                                        I followed chatengine.io instructions
-                                        to develop a chat app where you can make a user and text other
-                                        users.
-                                        The main takeaway from this project is to receive and
-                                        store users using chatengine.io.
-                                        I am using a free trial so it
-                                        is limited. 🚀
+                                    Lofi Calculator 🎧🧮. A cozy little web app where you can crunch numbers, 
+                                    jot down notes, and chill with some lofi beats. Whether you're studying, 
+                                    working, or just vibing, this space helps you stay focused and relaxed—all 
+                                    in one place.  🚀
                                     </p>
                                 </div>
 
@@ -88,7 +83,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -107,10 +102,19 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Two</h1>
 
-                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
-                                        🚧 In progress!!! 🚧
+                                        🚧 In progress!!! 🚧<br></br>
+                                        Sneak peak: This will be a fullstack project that will include: <br></br>
+
+                                        crud - Create, Read, Update, Delete <br></br>
+                                        Jira - Project management tool <br></br>
+                                        Git - Version Control <br></br>
+                                        Design Database <br></br>
+                                        Build api <br></br>
+                                        Set up on server
+
                                     </p>
                                 </div>
 
@@ -146,7 +150,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -165,7 +169,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Three</h1>
 
-                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧
@@ -204,7 +208,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -223,7 +227,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Four</h1>
 
-                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧
@@ -262,7 +266,7 @@ function Projects() {
 
                             <div className="projectDisplayPic">
 
-                                <img src="/src/assets/images/testImg.jpg" className="customImg" alt="img"></img>
+                                <img src="/src/assets/images/redCross.png" className="customImg" alt="img"></img>
 
                                 <div className="projectDisplayContent">
                                     <i class="fa-solid fa-arrow-down" id="swingArrow"></i>
@@ -281,7 +285,7 @@ function Projects() {
                                 <div className="projectDesciptionSection">
                                     <h1>Project Five</h1>
 
-                                    <img src="/src/assets/images/calculator.png" className="funImg" alt="" />
+                                    <img src="/src/assets/images/work-in-progress.png" className="funImg" alt="" />
 
                                     <p className="descrpText">
                                         🚧 In progress!!! 🚧

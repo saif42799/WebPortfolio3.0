@@ -29,7 +29,24 @@ Next: npm run dev <br>
 Live Link:  <br>
 
 Images <br>
-![Lofi Calculator screenshot](/myLofiCalculator/src/assets/images/Screenshot.png)
+My wep portfolio went through some drastic changes, but all for the best.
+<br>
+![Lofi Calculator screenshot](/my-web-app/src/assets/images/Screenshot0.png)
+ <br>
+
+ ![Lofi Calculator screenshot](/my-web-app/src/assets/images/Screenshot1.png)
+ <br>
+
+ ![Lofi Calculator screenshot](/my-web-app/src/assets/images/Screenshot2.png)
+ <br>
+
+ ![Lofi Calculator screenshot](/my-web-app/src/assets/images/Screenshot3.png)
+ <br>
+
+ ![Lofi Calculator screenshot](/my-web-app/src/assets/images/Screenshot4.png)
+ <br>
+
+ ![Lofi Calculator screenshot](/my-web-app/src/assets/images/Screenshot5.png)
  <br>
 
 *   ✉️  You can contact me at [saif42799@outlook.com](mailto:saif42799@outlook.com)

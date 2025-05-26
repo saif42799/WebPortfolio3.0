@@ -32,7 +32,7 @@ function Projects() {
                                             <a href="https://github.com/saif42799/LofiCalculator" target="blank"><i class="fa-brands fa-github" id="gitHubLink"></i></a>
                                         </div>
                                         <div className="projectDisplayLink">
-                                            <a href="https://github.com/saif42799" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
+                                            <a href="https://ef7a2f32.loficalculator.pages.dev/" target="blank"><i class="fa-solid fa-arrow-up-right-from-square" id="demoLink"></i></a>
                                         </div>
                                     </div>
                                 </div>

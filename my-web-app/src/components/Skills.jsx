@@ -6,13 +6,13 @@ function Skills() {
             <div className='firstSkillGrid'>
                 <div className='box' style={{ gridArea: "box-1" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/biceps.png" className='imgSkill' alt="" />
+                        <img src="/images/biceps.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-2" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/html.png" className='imgSkill' alt="" />
+                        <img src="/images/html.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
@@ -22,37 +22,37 @@ function Skills() {
 
                 <div className='box' style={{ gridArea: "box-4" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/css.png" className='imgSkill' alt="" />
+                        <img src="/images/css.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-5" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/React.png" className='imgSkill' alt="" />
+                        <img src="/images/React.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-6" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/games.png" className='imgSkill' alt="" />
+                        <img src="/images/games.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-7" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/js.png" className='imgSkill' alt="" />
+                        <img src="/images/js.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-8" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/painting.png" className='imgSkill' alt="" />
+                        <img src="/images/painting.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-9" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/racing-car.png" className='imgSkill' alt="" />
+                        <img src="/images/racing-car.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
@@ -200,7 +200,7 @@ function Skills() {
             <div className='secondSkillGrid'>
                 <div className='box' style={{ gridArea: "box-10" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/restaurant.png" className='imgSkill' alt="" />
+                        <img src="/images/restaurant.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
@@ -212,25 +212,25 @@ function Skills() {
 
                 <div className='box' style={{ gridArea: "box-12" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/typescript.png" className='imgSkill' alt="" />
+                        <img src="/images/typescript.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-13" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/java.png" className='imgSkill' alt="" />
+                        <img src="/images/java.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-14" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/nodejs.png" className='imgSkill' alt="" />
+                        <img src="/images/nodejs.png" className='imgSkill' alt="" />
                     </div>
                 </div>
 
                 <div className='box' style={{ gridArea: "box-15" }}>
                     <div className='iconHolder'>
-                        <img src="/public/images/githubLogo.png" className='imgSkillGit' alt="" />
+                        <img src="/images/githubLogo.png" className='imgSkillGit' alt="" />
                     </div>
                 </div>
 

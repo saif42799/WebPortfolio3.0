@@ -17,7 +17,7 @@ function About() {
                     <p>"If you want to succed as bad as you want to breath then you'll be successful" - some
                         random guy on the internet
                     </p>
-                    <img src="/public/images/samGuy3.png" className="imgCatcher"></img>
+                    <img src="/images/samGuy3.png" className="imgCatcher"></img>
                 </div>
             </div>
         </div>

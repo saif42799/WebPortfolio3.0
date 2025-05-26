@@ -1098,6 +1098,7 @@ body {
 @media (max-width: 500px) {
   .summarySection {
     margin: 10%;
+    margin-bottom: 50px;
     height: 500px;
     width: 300px;
   }

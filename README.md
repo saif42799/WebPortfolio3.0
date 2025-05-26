@@ -5,10 +5,32 @@ Software Engineer
 -----------------
 
 Web Portfolio 3.0 <br>
-Welcome to my web portfolio! Learn more about me and feel free to reach out with any inquiries
+Welcome to my web portfolio! Learn more about me, and feel free to reach out with any inquiries
 
-Webserver <br>
+## Webserver <br>
 - I am using Cloudflare for the web server
+
+## Technologies used
+R - React <br>
+N - Node.js <br>
+
+## Frontend Technologies
+HTML <br>
+CSS <br>
+JavaScript <br>
+
+## Backend Technologies
+NodeJs - runtime <br>
+
+## How to run the program 
+cd into folder (cd my-web-app)<br>
+Next: npm run dev <br>
+
+Live Link:  <br>
+
+Images <br>
+![Lofi Calculator screenshot](/myLofiCalculator/src/assets/images/Screenshot.png)
+ <br>
 
 *   ✉️  You can contact me at [saif42799@outlook.com](mailto:saif42799@outlook.com)
 *   🧠  I'm learning Whatever I can get my hands on! And mainly JavaScript
